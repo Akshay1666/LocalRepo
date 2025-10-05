@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+/* User-added styles for food delivery UI */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #ff6b00;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  padding: 50px 20px;
+  background-color: #fff3e6;
+}
+
+.order-btn {
+  background-color: #ff6b00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #ff4500;
+}
+
+.menu {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item-card {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.item-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item-card button {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-card button:hover {
+  background-color: #ff4500;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
